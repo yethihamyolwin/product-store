@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+.hide-scrollbar {
+  overflow-x: auto; /* scroll လုပ်လို့ရအောင် auto ပေးထားပါ */
+  white-space: nowrap; /* item တွေကို တစ်တန်းတည်းရှိနေစေဖို့ */
+
+  /* Firefox */
+  scrollbar-width: none;
+  /* IE and Edge */
+  -ms-overflow-style: none;
+}
+
+/* Chrome, Safari, Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
