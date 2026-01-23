@@ -1,17 +1,22 @@
 import React from "react";
+import Container from "./Container";
 
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
-    <footer className="px-5 bg-black text-white mx-5 text-center py-2">
-      @{year}{" "}
-      <a
-        href="www.lumberjack.jack0@gmail.com"
-        className="underline text-gray-300"
-      >
-        YeThiha
-      </a>
-      . All rights reserved.
+    <footer className=" text-white mt-auto">
+      <Container>
+        <div className="text-center bg-black py-4">
+          @{year}{" "}
+          <a
+            href="mailto:lumberjack.jack0@gmail.com"
+            className="underline text-white hover:text-gray-300"
+          >
+            YeThiha
+          </a>
+          . All rights reserved.
+        </div>
+      </Container>
     </footer>
   );
 };
