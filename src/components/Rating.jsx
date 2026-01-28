@@ -3,7 +3,7 @@ import React from "react";
 const Rating = ({ rate }) => {
   const currentRate = Math.round(rate);
   return (
-    <div className="flex mt-auto">
+    <div className="flex">
       {[1, 2, 3, 4, 5].map((star) => (
         <svg
           key={star}
