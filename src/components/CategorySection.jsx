@@ -11,7 +11,7 @@ const CategorySection = () => {
     "women's clothing",
   ];
   return (
-    <section id="category-section" className="p-5 grow">
+    <section id="category-section" className="p-5">
       <Container>
         <p className="text-md text-gray-500 mb-2">{title}</p>
         <div className="flex flex-nowrap hide-scrollbar">

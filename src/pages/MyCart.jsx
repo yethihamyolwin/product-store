@@ -4,9 +4,11 @@ import Breadcrumb from "../components/Breadcrumb";
 
 const MyCart = () => {
   return (
-    <Container>
-      <Breadcrumb currentPageTitle="My Cart" />
-    </Container>
+    <section id="my-cart" className="p-5">
+      <Container>  
+        <Breadcrumb currentPageTitle="My Cart" />
+      </Container>
+    </section>
   );
 };
 
